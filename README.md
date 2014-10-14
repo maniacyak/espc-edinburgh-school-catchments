@@ -4,7 +4,9 @@ This bookmarklet adds a small panel to the map view of [ESPC.com](http://www.esp
 # How?
 If you know how to set up a bookmarklet manually, grab the source code from [`bookmarklet.js`](https://raw.githubusercontent.com/maniacyak/espc-edinburgh-school-catchments/master/bookmarklet.js). 
 
-(Not-so-manual instructions “coming soon” because I can’t embed JavaScript links here.)
+Alternatively visit the [project page](http://maniacyak.github.io/espc-edinburgh-school-catchments/) and drag the provided link to your browser’s bookmarks or favourites bar.
+
+To use: do a search at [ESPC.com](http://www.espc.com), click “Map View”, then click the link you just dragged to your bookmarks bar to load the interface.
 
 # Why?
 Because some people like knowing where their kids will end up going to school before they spend enormous sums on a house.
