@@ -1,0 +1,1 @@
+javascript:void((function(){var id='catchments',s=document.getElementById(id);if(s){s.parentNode.removeChild(s);}s=document.createElement('script');s.src='https://s3-eu-west-1.amazonaws.com/edinburgh-school-catchments/catchments.js?v='+Date.now();s.type='text/javascript';s.id=id;document.body.appendChild(s);})());
