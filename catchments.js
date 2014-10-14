@@ -542,7 +542,7 @@
     this.controls = document.createElement('div');
     this.controls.id = 'catchment-controls';
     this.controls.style.cssText = 'background-color: #00aeef; box-shadow: 1px 1px 3px rgba(0,0,0,0.4); bottom: 33px; color: #fff; font-size: 1.2em; position: absolute; left: 10px; padding: 5px; text-shadow: 2px 2px 2px #0b94cb;';
-    this.controls.innerHTML = '<label for="catchment-areas" style="display: block; float: none; font-weight: bold; margin: 0; padding: 0 2px 2px; width: auto;">Show school catchment areas: [?]</label>';
+    this.controls.innerHTML = '<label for="catchment-areas" style="display: block; float: none; font-weight: bold; margin: 0; padding: 0 2px 2px; width: auto;">Show school catchment areas: [ <a href="http://maniacyak.github.io/espc-edinburgh-school-catchments/">?</a> ]</label>';
 
     this.selector = document.createElement('select');
     this.selector.id = 'catchment-areas';
