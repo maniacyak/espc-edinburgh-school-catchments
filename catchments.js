@@ -500,10 +500,6 @@
         }
     };
 
-    this.displayAbout = function() {
-
-    };
-
     this.setup = function() {
         for (var cat in that.categories) {
             // create KML layers
