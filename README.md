@@ -1,6 +1,8 @@
 # What?
 This bookmarklet adds a small panel to the map view of [ESPC.com](http://www.espc.com)’s search results, which you can use to display catchment area boundaries and school locations for each category of school.
 
+![Interface preview](https://raw.githubusercontent.com/maniacyak/espc-edinburgh-school-catchments/screenshots/screenshot.png)
+
 # How?
 If you know how to set up a bookmarklet manually, grab the source code from [`bookmarklet.js`](https://raw.githubusercontent.com/maniacyak/espc-edinburgh-school-catchments/master/bookmarklet.js). 
 
