@@ -31,51 +31,44 @@
           <h2>
             <a name="what" class="anchor" href="#what"><span class="octicon octicon-link"></span></a>
             What?
-         </h2>
+          </h2>
+          <p>This bookmarklet adds a small panel to the map view of <a href="http://www.espc.com">ESPC.com</a>’s search results, which you can use to display catchment area boundaries and school locations for each category of school.</p>
+          <a href="https://raw.githubusercontent.com/maniacyak/espc-edinburgh-school-catchments/screenshots/screenshot.png" target="_blank"><img src="https://raw.githubusercontent.com/maniacyak/espc-edinburgh-school-catchments/screenshots/screenshot.png" alt="Interface preview" style="max-width:100%;"></a>
 
-            <p>This bookmarklet adds a small panel to the map view of <a href="http://www.espc.com">ESPC.com</a>’s search results, which you can use to display catchment area boundaries and school locations for each category of school.</p>
+          <h2>
+              <a name="how" class="anchor" href="#how"><span class="octicon octicon-link"></span></a>
+              How?
+          </h2>
+          <p>Drag the link below to your browser’s bookmarks or favourites bar.</p>
+          <p>
+            <a class="button" style="float: none; width: 300px;" href="javascript:void((function(){var id='catchments',s=document.getElementById(id);if(s){s.parentNode.removeChild(s);}s=document.createElement('script');s.src='https://s3-eu-west-1.amazonaws.com/edinburgh-school-catchments/catchments.js?v='+Date.now();s.type='text/javascript';s.id=id;document.body.appendChild(s);})());">
+              <span>Edinburgh Catchment Areas</span>
+            </a>
+          </p>
+          <p>To use: do a search at <a href="http://www.espc.com">ESPC.com</a>, click “Map View”, then click the link you just dragged to your bookmarks bar to load the interface..</p>
 
-            <h2>
-                <a name="how" class="anchor" href="#how"><span class="octicon octicon-link"></span></a>
-                How?
-            </h2>
+          <h2>
+            <a name="why" class="anchor" href="#why"><span class="octicon octicon-link"></span></a>
+            Why?
+          </h2>
+          <p>Because some people like knowing where their kids will end up going to school before they spend enormous sums on a house.</p>
 
-            <p>Drag the link below to your browser’s bookmarks or favourites bar.</p>
+          <h3>
+            <a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>
+            Acknowledgements
+          </h3>
 
-            <p>
-              <a class="button" style="float: none; width: 300px;" href="javascript:void((function(){var id='catchments',s=document.getElementById(id);if(s){s.parentNode.removeChild(s);}s=document.createElement('script');s.src='https://s3-eu-west-1.amazonaws.com/edinburgh-school-catchments/catchments.js?v='+Date.now();s.type='text/javascript';s.id=id;document.body.appendChild(s);})());">
-                <span>Edinburgh Catchment Areas</span>
-              </a>
-            </p>
-
-            <p>To use: do a search at <a href="http://www.espc.com">ESPC.com</a>, click “Map View”, then click the link you just dragged to your bookmarks bar to load the interface..</p>
-
-            <h2>
-                <a name="why" class="anchor" href="#why"><span class="octicon octicon-link"></span></a>
-                Why?
-            </h2>
-
-            <p>Because some people like knowing where their kids will end up going to school before they spend enormous sums on a house.</p>
-
-            <h3>
-                <a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>
-                Acknowledgements
-            </h3>
-
-            <ul>
-                <li><a href="https://twitter.com/alexturnbull">Alex Turnbull</a> for suggesting the idea.</li>
-                <li><a href="https://www.edinburgh.gov.uk">The City of Edinburgh Council</a>  for publishing their <a href="https://github.com/edinburghcouncil/datasets">datasets here on GitHub</a>.</li>
-                <li><a href="http://www.gdal.org/ogr2ogr.html">GDAL’s <code>ogr2ogr</code> utility</a>, which I used to convert Edinburgh Council’s Esri shape files into Google Maps-compatible KML files.</li>
-                <li><a href="http://hannahfry.co.uk">Dr Hannah Fry</a>, whose <a href="http://hannahfry.co.uk/2012/02/01/converting-british-national-grid-to-latitude-and-longitude-ii/">Python script</a> I used to batch convert Edinburgh Council’s Ordnance Survey (OSGB36) school locations into GPS (WGS84) coordinates.</li>
-            </ul>
+          <ul>
+            <li><a href="https://twitter.com/alexturnbull">Alex Turnbull</a> for suggesting the idea.</li>
+            <li><a href="https://www.edinburgh.gov.uk">The City of Edinburgh Council</a>  for publishing their <a href="https://github.com/edinburghcouncil/datasets">datasets here on GitHub</a>.</li>
+            <li><a href="http://www.gdal.org/ogr2ogr.html">GDAL’s <code>ogr2ogr</code> utility</a>, which I used to convert Edinburgh Council’s Esri shape files into Google Maps-compatible KML files.</li>
+            <li><a href="http://hannahfry.co.uk">Dr Hannah Fry</a>, whose <a href="http://hannahfry.co.uk/2012/02/01/converting-british-national-grid-to-latitude-and-longitude-ii/">Python script</a> I used to batch convert Edinburgh Council’s Ordnance Survey (OSGB36) school locations into GPS (WGS84) coordinates.</li>
+          </ul>
         </section>
-
         <footer>
           Edinburgh school catchment areas for ESPC.com is maintained by <a href="https://github.com/maniacyak">maniacyak</a><br>
           This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
         </footer>
-
-
       </div>
     </div>
   </body>
