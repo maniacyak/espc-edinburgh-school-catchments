@@ -2,11 +2,9 @@
 This bookmarklet adds a small panel to the map view of [ESPC.com](http://www.espc.com)’s search results, which you can use to display catchment area boundaries and school locations for each category of school.
 
 # How?
-Drag the link below to your browser’s bookmarks or favourites bar.
+If you know how to set up a bookmarklet manually, grab the source code from `bookmarklet.js`. 
 
-<a href=“(javascript:void((function(){var id='catchments',s=document.getElementById(id);if(s){s.parentNode.removeChild(s);}s=document.createElement('script');s.src='https://s3-eu-west-1.amazonaws.com/edinburgh-school-catchments/catchments.js?v='+Date.now();s.type='text/javascript';s.id=id;document.body.appendChild(s);})());” style=“display; block; margin: 0 auto; border-radius: 10px; padding: 5px; border: 1px solid inherit;”>Edinburgh Catchment Areas</a>
-
-To use, do a search at [ESPC.com](http://www.espc.com), click “Map View” and then click the link you just dragged to your bookmarks bar to get started.
+(Not-so-manual instructions “coming soon” because I can’t embed JavaScript links here.)
 
 # Why?
 Because some people like knowing where their kids will end up going to school before they spend enormous sums on a house.
